@@ -1,6 +1,6 @@
 [package]
 name = "console_color"
-version = "0.1.0"
+version = "0.1.1"
 description = "Cross platform console colors written in idiomatic Rust"
 repository = "https://github.com/Xydez/console_color-rs"
 authors = ["Xydez <thexydez@gmail.com>"]
