@@ -1,12 +1,13 @@
 [package]
 name = "console_color"
 version = "0.1.0"
+description = "Cross platform console colors written in idiomatic Rust"
+repository = "https://github.com/Xydez/console_color-rs"
 authors = ["Xydez <thexydez@gmail.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+license = "Unlicense"
+keywords = ["console", "color"]
+categories = ["command-line-interface"]
 
 [target.'cfg(windows)'.dependencies]
 winapi = { version = "0.3.9", features = ["impl-default", "wincon", "consoleapi", "processenv", "winnt", "winbase"] }
