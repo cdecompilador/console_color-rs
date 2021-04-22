@@ -10,6 +10,9 @@ use winapi::um::{
 	winbase::STD_OUTPUT_HANDLE
 };
 
+#[cfg(target_family = "unix")]
+use std::io::Write;
+
 #[derive(Debug, Copy, Clone, Eq, PartialEq)]
 pub enum Color
 {
