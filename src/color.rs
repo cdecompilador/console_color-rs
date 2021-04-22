@@ -100,7 +100,7 @@ impl Terminal
 	{
 		let fg_enum = match fg
 		{
-			Color::None => 0,
+			Color::None => 39,
 			Color::Black => 30,
 			Color::DarkRed => 31,
 			Color::DarkGreen => 32,
@@ -121,7 +121,7 @@ impl Terminal
 
 		let bg_enum = match bg
 		{
-			Color::None => 0,
+			Color::None => 49,
 			Color::Black => 40,
 			Color::DarkRed => 41,
 			Color::DarkGreen => 42,
