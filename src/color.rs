@@ -16,17 +16,17 @@ pub enum Color
 	Black, DarkBlue, DarkGreen, DarkCyan, DarkRed, DarkMagenta, DarkYellow, DarkGray, Gray, Blue, Green, Cyan, Red, Magenta, Yellow, White, None
 }
 
-pub struct AnsiTerminal
+pub struct Terminal
 {
 	#[cfg(target_os = "windows")]
 	console_handle: HANDLE
 }
 
-impl AnsiTerminal
+impl Terminal
 {
-	pub fn new() -> AnsiTerminal
+	pub fn new() -> Terminal
 	{
-		return AnsiTerminal {
+		return Terminal {
 			#[cfg(target_os = "windows")]
 			console_handle: unsafe { GetStdHandle(STD_OUTPUT_HANDLE) }
 		};
