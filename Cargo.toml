@@ -10,4 +10,5 @@ keywords = ["console", "color"]
 categories = ["command-line-interface"]
 
 [target.'cfg(windows)'.dependencies]
-winapi = { version = "0.3.9", features = ["impl-default", "wincon", "consoleapi", "processenv", "winnt", "winbase"] }
+bindings = { path = "bindings" }
+windows = "0.9.1"
