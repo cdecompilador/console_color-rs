@@ -1,1 +1,0 @@
-C:\Users\ElGusanito\console_color-rs\bindings\target\debug\libbindings.rlib: C:\Users\ElGusanito\console_color-rs\bindings\build.rs C:\Users\ElGusanito\console_color-rs\bindings\src\lib.rs C:\Users\ElGusanito\console_color-rs\bindings\target\debug\build\bindings-0a40bae33df40c74\out\windows.rs
